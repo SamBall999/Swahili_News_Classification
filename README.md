@@ -55,6 +55,7 @@ Due to the imbalanced nature of the dataset, specific strategies to ensure an ap
 ### Report
 <a href="Swahili_News_Classification_Report_1603701.pdf">
 Classifying Swahili News Articles using Probabilistic and Deep Learning Approaches
+ </a>
 
 
 ### References
