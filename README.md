@@ -41,7 +41,7 @@ Due to the widespread focus on English text as the subject of Natural Language P
 
 The classification results for each machine learning approach, before and after optimization are tabulated below.
 
-<img src="results.png" alt="target distribution." width="450"/>
+<img src="results.png" alt="target distribution." width="800"/>
 
 From the investigation, it has been seen that the multilingual BERT network outperforms the more probabilistic Naive Bayes and Support Vector Machine approaches, with an optimized F1-score of **85%**. However, this performance is obtained at the expense of significantly more computational resources and training time in comparison to the simpler SVM approach.
 
