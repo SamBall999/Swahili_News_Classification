@@ -21,7 +21,10 @@ The Swahili News Classification dataset collected as part of the *AI4D African L
 
 The dataset was obtained from [Zenodo](https://zenodo.org/record/4300294#.YMRNmDYza3I) [[1](#references)].
 
+The distribution of the news categories present in the dataset is plotted below.
 
+
+<img src="target.png" alt="target distribution." width="450"/>
 
 From the graph it can be observed that there is a severe class imbalance with an uneven distribution of samples across the news categories. Specifically, the *kitaifa* (local news) category has the highest number of samples with 10242 samples while the *afya* (health news) category has the lowest number of samples at 859.
 
@@ -35,6 +38,10 @@ Due to the widespread focus on English text as the subject of Natural Language P
 
 
 ### Results
+
+The classification results for each machine learning approach, before and after optimization are tabulated below.
+
+<img src="results.png" alt="target distribution." width="450"/>
 
 From the investigation, it has been seen that the multilingual BERT network outperforms the more probabilistic Naive Bayes and Support Vector Machine approaches, with an optimized F1-score of **85%**. However, this performance is obtained at the expense of significantly more computational resources and training time in comparison to the simpler SVM approach.
 
