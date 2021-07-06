@@ -52,6 +52,11 @@ Critically, model optimization plays a pivotal role in ensuring optimal model pe
 Due to the imbalanced nature of the dataset, specific strategies to ensure an appropriate balance of precision and recall were required for viable classification performance across the news categories.
 
 
+### Report
+<a href="Swahili_News_Classification_Report_1603701.pdf">
+Classifying Swahili News Articles using Probabilistic and Deep Learning Approaches
+
+
 ### References
 
 [1] Davis David. Swahili: News classification dataset, Zenodo, 2020. http://doi.org/10.5281/zenodo.4300294
